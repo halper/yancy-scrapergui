@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-vue-loader": "~1.0.1",
+    "laravel-elixir-webpack-official": "^1.0.10",
+    "lodash": "^4.16.2",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3",
+    "vue-template-compiler": "~2.1.10",
+    "css-loader": "~0.26.1",
+    "vue-loader": "~10.0.2"
+  }
+}
