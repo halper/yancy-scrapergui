@@ -19,6 +19,7 @@ elixir(mix => {
     .sass('app.scss', 'public/css/bootstrap.min.css')
     .webpack(['app.js', 'adminlte.js', 'bootstrap.js'])
     .webpack('home.js')
+    .webpack('proxy.js')
     .webpack('site.js');
 
 });

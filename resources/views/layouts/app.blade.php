@@ -109,6 +109,7 @@ desired effect
                 <li {{ $title === 'home' ? 'class=active' : '' }}><a href="/home"><i class="fa fa-home"></i> <span>Home</span></a></li>
                 <li {{ $title === 'sites' ? 'class=active' : '' }}><a href="/sites"><i class="fa fa-shopping-bag"></i> <span>Sites</span></a></li>
                 <li {{ $title === 'products' ? 'class=active' : '' }}><a href="/products"><i class="fa fa-tags"></i> <span>Products</span></a></li>
+                <li {{ $title === 'proxies' ? 'class=active' : '' }}><a href="/proxies"><i class="fa fa-globe"></i> <span>Proxies</span></a></li>
                 <li {{ $title === 'logs' ? 'class=active' : '' }}><a href="/log"><i class="fa fa-book"></i> <span>Logs</span></a></li>
                 <li {{ $title === 'notifier' ? 'class=active' : '' }}><a href="/notifier"><i class="fa fa-file-o"></i> <span>Notifier Settings</span></a></li>
 

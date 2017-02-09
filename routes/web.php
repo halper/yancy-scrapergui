@@ -36,6 +36,11 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/products', 'ProductController@index');
 
+    Route::get('/proxies', 'ProxyController@index');
+    Route::get('/proxies/fetch', 'ProxyController@fetch');
+    Route::post('/proxies/save', 'ProxyController@save');
+    Route::post('/proxies/delete', 'ProxyController@delete');
+
     Route::post('/notifier/save', 'NotifierController@save');
     Route::get('/notifier', 'NotifierController@index');
 
