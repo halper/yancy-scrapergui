@@ -5,7 +5,7 @@
 
 @section('content-header')
     <h1>
-        Sites
+        Proxies
     </h1>
 @endsection
 
